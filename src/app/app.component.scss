@@ -1,0 +1,55 @@
+.todo{
+    display: flex;
+    padding: 10px 15px;
+    background-color:#F3FDE8 ;
+    border-bottom: 1px solid #FFE5E5;
+}
+
+.todo:nth-child(even){
+    background-color:#A8DF8E ;
+}
+
+.todo:last-of-type{
+    border-bottom: 0;
+}
+
+.todo.id{
+    flex: 1 1 50px;
+}
+
+.todo.content{
+    flex: 1 1 100%;
+}
+
+.todo.done.content{
+    text-decoration: line-through;
+}
+.todo-input{
+    display: block;
+    width:100%;
+    padding: 10px 15px;
+    appearance: none;
+    border: none;
+    background-color:#FFBFBF ;
+    margin-top: 15px;
+    font-size: 20px;
+    outline:none;
+}
+
+.todo-submit{
+    display: block;
+    width:100%;
+    max-width: 200px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background:none;
+
+    color:#FFE5E5;
+    background-color: #85E6C5;
+    margin: 15px auto;
+
+    padding: 10px 15px;
+    font-size:18px;
+    font-weight: 700;
+}
